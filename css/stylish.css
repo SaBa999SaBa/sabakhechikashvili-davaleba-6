@@ -1,0 +1,32 @@
+body{
+	background-image:url("../images/road.webp");
+background-size: cover;
+background-size: 100hv;
+background-repeat: no-repeat;
+}
+
+.div{
+	width: 600px;
+height: 450px;
+position: relative;
+animation: mymove 2s infinite;
+bottom: -260px;
+}
+
+@keyframes mymove{
+	from {left: 0px;}
+	to {left: 100%;}
+}
+
+.div2{
+	width: 200px;
+height: 200px;
+position: relative;
+left: 85%;
+top: -450px;
+transition: transform .7s ease-in-out;
+}
+
+.div2:hover{
+	transform: rotate(360deg);
+}
